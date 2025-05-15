@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background:lightblue;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background: blue;
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background:lightblue;
+}
+
+.option {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.7rem;
+  border: 2px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.option:hover {
+  background: lightskyblue;
+}
+
+.hidden {
+  display: none;
+}
+.option.selected {
+  background: #a5f3fc;
+  border-color: #06b6d4;
+  font-weight: bold;
+}
+
